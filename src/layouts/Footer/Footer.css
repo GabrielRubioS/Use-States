@@ -1,0 +1,11 @@
+.Iconos{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tamaño{
+    height: 1.5rem;
+    width: 1.5rem;
+}

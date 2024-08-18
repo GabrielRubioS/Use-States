@@ -1,0 +1,37 @@
+.Otraimagen { 
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    height: 84.6vh;
+    width: 97.9vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+    background:  #0c0c0c ; 
+    background: linear-gradient(
+      135deg,
+      #0c0c0c 25%,
+      #0c0c0c 25%,
+      #0c0c0c 50%,
+      #0c0c0c  50%,
+      #0c0c0c  75%,
+      #0c0c0c 75%,
+      #0c0c0cfa 
+    );
+    background-size: 40px 40px;
+  
+    /* Animation */
+    animation: move 4s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
+
